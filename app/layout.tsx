@@ -30,6 +30,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* @ts-expect-error -- Impact.com verification snippet requires `value`, not `content` */}
         <meta name="impact-site-verification" value="d4b691ab-f50f-40b0-bbde-3a6a7aa61c6c" />
+        {/* @ts-expect-error -- Impact.com verification snippet requires `value`, not `content` */}
+        <meta name="impact-site-verification" value="aa9c2dd6-8d51-4949-8d40-ac66bfc52df1" />
       </head>
       <body className="min-h-screen flex flex-col bg-white">
         <SiteHeader />
